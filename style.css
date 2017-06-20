@@ -1,0 +1,12 @@
+.playarea {
+  background-image: url('imgs/background.jpg');
+  height: 450px;
+  width:960px;
+}
+
+.babadook {
+  position: relative;
+  left: 20px;
+  top: 230px;
+  z-index:999;
+}
