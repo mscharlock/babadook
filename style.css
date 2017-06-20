@@ -12,54 +12,92 @@
   z-index:999;
 }
 
-.balloon {
+.redballoon {
   height: 50px;
   width: 40px;
-  float: left;
-  margin-top: 10px;
+  position: absolute;
   border-radius: 50%;
+  background-color: red;
   z-index: 9;
+  animation-name: fall;
+  animation-direction: left;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes fall {
+  0% {margin-top: 0px;}
+  50% {margin-left: 75px;}
+  100% {margin-top: 400px;}
 }
 
-#red {
-  background-color: red;
+.yellowballoon{
+  height: 50px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: yellow;
+  z-index: 9;
   animation-name: float;
   animation-direction: left;
-  animation-duration: 30s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 @keyframes float {
-  0% {
-    top: 0;
-  }
-  50% {
-    margin-left: 500px;
-    margin-top: 50px;
-  }
-   75%{
-     margin-top: 10px;
-   }
-   100% {
-     margin-top: 30px;
-     margin-left: 960px;
-   }
+  0% {margin-top: 0px;}
+  5% {margin-left: 15px;}
+  10% {margin-right: 75px;}
+  30% {margin-left: 45px;}
+  100% {margin-top:400px;}
 }
 
-#orange {
+.orangeballoon {
+  height: 50px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
   background-color: orange;
+  z-index: 9;
+  animation-name: float;
+  animation-direction: left;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
 
-#yellow {
-  background-color: yellow;
-}
-
-#green {
+.greenballoon {
   background-color: lightgreen;
+  height: 50px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 9;
+  animation-name: fall;
+  animation-direction: right;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
 }
 
-#blue {
+.blueballoon {
   background-color: blue;
+  height: 50px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 9;
+  animation-name: fall;
+  animation-direction: right;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 
-#purple {
+.purpleballoon {
   background-color: purple;
+  height: 50px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 9;
+  animation-name: float;
+  animation-direction: left;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
 }
