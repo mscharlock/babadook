@@ -2,6 +2,7 @@
   background-image: url('imgs/background.jpg');
   height: 450px;
   width:960px;
+  z-index:0;
 }
 
 .babadook {
@@ -9,4 +10,35 @@
   left: 20px;
   top: 230px;
   z-index:999;
+}
+
+.balloon {
+  height: 45px;
+  width: 50px;
+  float: left;
+  margin-top: 10px;
+}
+
+#red {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: lightgreen;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#purple {
+  background-color: purple;
 }

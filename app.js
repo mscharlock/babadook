@@ -21,32 +21,10 @@ $(document).ready(function(){
       $('babadook').animate({top: '+=10px'}, 500);
       break;
     }
-      // case 40:
-      // $('babadook').attr('src', 'imgs/Jump.png');
-      //
   });
 });
 
+$(document).ready(function(){
+  $('div').animate()
 
-
-//
-//
-//
-// var babadook = function (x, y) {
-//   this.x = x;
-//   this.y = y;
-//   this.img = ('./imgs/Babadook.png');
-// };
-//
-// babadook.bounce = function(){
-//   this.img = ('./imgs/Jump.png');
-//   this.y -= 10;
-// };
-//
-// $(document).ready(function() {
-//   $(document).keydown(function(e){
-//     if (e.keyCode === 38) {
-//
-//     }
-//   }
-// })
+})
